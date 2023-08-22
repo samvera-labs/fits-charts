@@ -1,11 +1,6 @@
 apiVersion: v2
-name: fcrepo
-description: Fedora Commons Repository 4
+name: fits
+description: File Information Tool Set (FITS)
 type: application
-version: 1.0.0
-appVersion: 4.7.5
-dependencies:
-  - name: postgresql
-    version: 11.6.12
-    repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
-    condition: postgresql.enabled
+version: 0.1.0
+appVersion: 1.5.0

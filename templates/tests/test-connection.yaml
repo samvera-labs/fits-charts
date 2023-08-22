@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "{{ include "fcrepo.fullname" . }}-test-connection"
+  name: "{{ include "fits.fullname" . }}-test-connection"
   labels:
-    {{- include "fcrepo.labels" . | nindent 4 }}
+    {{- include "fits.labels" . | nindent 4 }}
   annotations:
     "helm.sh/hook": test-success
 spec:
@@ -11,5 +11,5 @@ spec:
     - name: wget
       image: busybox
       command: ['wget']
-      args: ['{{ include "fcrepo.fullname" . }}:{{ .Values.service.port }}']
+      args: ['{{ include "fits.fullname" . }}:{{ .Values.service.port }}']
   restartPolicy: Never
