@@ -40,12 +40,12 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /rest
+              path: /fits
               port: http
             initialDelaySeconds: {{ default 15 .Values.healthCheck.initialDelay }}
           readinessProbe:
             httpGet:
-              path: /rest
+              path: /fits
               port: http
             initialDelaySeconds: {{ default 15 .Values.healthCheck.initialDelay }}
           resources:
