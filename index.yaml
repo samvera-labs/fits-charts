@@ -3,7 +3,17 @@ entries:
   fits:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2023-08-30T13:31:27.421190118-07:00"
+    created: "2025-02-05T07:30:44.638247334-08:00"
+    description: File Information Tool Set (FITS)
+    digest: f90c1fd420264f45e1da699cfc3ab2f456163dcdd0f23826f0f1d15452018e33
+    name: fits
+    type: application
+    urls:
+    - https://samvera-labs.github.io/fits-charts/fits-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2025-02-05T07:30:44.637760486-08:00"
     description: File Information Tool Set (FITS)
     digest: 1ced6962877147755477d856579db37d096f9d28306a64c4e564bb898121d7ed
     name: fits
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2023-08-30T13:31:27.420383209-07:00"
+    created: "2025-02-05T07:30:44.63708395-08:00"
     description: File Information Tool Set (FITS)
     digest: 1d9ca9b2e9693aa833b870e1c09d1bbe42f835c39aab29281031971af1ae00d9
     name: fits
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://samvera-labs.github.io/fits-charts/fits-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-30T13:31:27.419840978-07:00"
+generated: "2025-02-05T07:30:44.636196566-08:00"
