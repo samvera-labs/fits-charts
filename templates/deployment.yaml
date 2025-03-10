@@ -52,9 +52,12 @@ spec:
           volumeMounts:
             {{- toYaml . | nindent 12 }}
           {{- end }}
+          {{- with .Values.extraVolumeDevices }}
+          volumeDevices:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-
       {{- with .Values.extraVolumes }}
       volumes:
         {{- toYaml . | nindent 8 }}
